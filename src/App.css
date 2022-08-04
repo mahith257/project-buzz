@@ -1,0 +1,13 @@
+.App {
+  display: flex;
+}
+.App .container{
+  flex-grow: 1;
+  padding: 0 60px;
+}
+
+@media(max-width:468px) {
+  .App .container {
+    padding: 0 10px;
+  }
+}
